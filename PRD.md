@@ -247,12 +247,16 @@ projects/gym-history-book/
   - Print spec (210×270mm, facing-page bilingual)
   - 12 design deliverables mapped out
 
-### ⏳ Phase 3 — Content (Next)
-- [ ] Translate raw manuscript ZH → EN
-- [ ] Structure into 5 Acts + Castells Interlude
-- [ ] Write chapter intros/outros
-- [ ] Compile philosophical glossary
-- [ ] Collect alumni quotes & state chapter details from Jerrison
+### ⏳ Phase 3 — Content (90% Complete)
+- [x] Translate raw manuscript ZH → EN
+- [x] Structure into 5 Acts + Castells Interlude
+- [x] Write chapter intros/outros
+- [x] Compile philosophical glossary (26 terms)
+- [x] Extract manuscript quotes (12 quotes)
+- [x] Create data collection templates for state chapters, photos, videos
+- [ ] Collect alumni quotes from Jerrison & alumni
+- [ ] Fill state chapter directory
+- [ ] Photo/video submissions from members
 
 ### 🔜 Phases 4–10 — Blocked Until Phase 3 Starts
 
