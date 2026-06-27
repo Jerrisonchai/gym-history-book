@@ -23,7 +23,8 @@ export default async function ValuesPage() {
           </div>
 
           <div
-            className="[&_table]:w-full [&_table]:border-collapse [&_table]:rounded-lg [&_table]:overflow-hidden
+            className="overflow-x-auto -mx-6 px-6
+              [&_table]:w-full [&_table]:min-w-[600px] [&_table]:border-collapse
               [&_th]:px-4 [&_th]:py-2.5 [&_th]:text-left [&_th]:text-sm [&_th]:font-semibold
               [&_td]:px-4 [&_td]:py-2 [&_td]:text-sm [&_td]:align-top
               prose prose-invert max-w-none

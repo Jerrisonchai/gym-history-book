@@ -172,3 +172,41 @@ body {
     animation-duration: 0.01ms !important;
   }
 }
+
+/* ── Mobile UX ── */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  body.pb-14 {
+    padding-bottom: calc(3.5rem + env(safe-area-inset-bottom, 0px));
+  }
+  .bottom-14 {
+    bottom: calc(3.5rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+/* Tap highlight removal (iOS) */
+a, button {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* Minimum touch target 44px for mobile */
+@media (max-width: 767px) {
+  nav a, nav button, .tab-btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Prevent text zoom on iOS orientation change */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Smooth mobile overscroll */
+body {
+  overscroll-behavior-y: contain;
+}

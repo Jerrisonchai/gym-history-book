@@ -17,7 +17,8 @@ export default async function GlossaryPage() {
           <div className="w-24 h-1 bg-gradient-to-r from-gold-500 to-teal-400 mb-10 rounded-full" />
 
           <div
-            className="[&_table]:w-full [&_table]:border-collapse [&_table]:rounded-lg [&_table]:overflow-hidden
+            className="overflow-x-auto -mx-6 px-6
+              [&_table]:w-full [&_table]:min-w-[500px] [&_table]:border-collapse
               [&_th]:px-3 [&_th]:py-2.5 [&_th]:text-left [&_th]:text-xs [&_th]:font-semibold [&_th]:uppercase [&_th]:tracking-wider
               [&_td]:px-3 [&_td]:py-2 [&_td]:text-sm [&_td]:align-top [&_td]:leading-relaxed
               prose prose-invert max-w-none
