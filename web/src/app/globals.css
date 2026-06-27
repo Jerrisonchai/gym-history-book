@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @theme {
   --color-navy-950: #0a0e1a;
@@ -145,7 +146,26 @@ body {
 [data-theme="light"] .hover\:bg-gold-500\/20:hover { background-color: rgba(184,134,11,0.2) !important; }
 [data-theme="light"] .hover\:bg-gold-500\/30:hover { background-color: rgba(184,134,11,0.3) !important; }
 [data-theme="light"] .hover\:text-gold-300:hover { color: #ad7f1a !important; }
-[data-theme="light"] .prose-invert { --tw-prose-body: #1a1a2e; --tw-prose-headings: #b8860b; --tw-prose-bold: #ad7f1a; }
+
+/* Prose-invert → normal prose in light mode */
+[data-theme="light"] .prose-invert {
+  --tw-prose-body: #374151;
+  --tw-prose-headings: #92400e;
+  --tw-prose-lead: #4b5563;
+  --tw-prose-links: #b45309;
+  --tw-prose-bold: #92400e;
+  --tw-prose-counters: #6b7280;
+  --tw-prose-bullets: #9ca3af;
+  --tw-prose-hr: #e5e7eb;
+  --tw-prose-quotes: #92400e;
+  --tw-prose-quote-borders: #fbbf24;
+  --tw-prose-captions: #6b7280;
+  --tw-prose-code: #92400e;
+  --tw-prose-pre-code: #e5e7eb;
+  --tw-prose-pre-bg: #1f2937;
+  --tw-prose-th-borders: #d1d5db;
+  --tw-prose-td-borders: #e5e7eb;
+}
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
