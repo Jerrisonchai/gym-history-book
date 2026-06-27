@@ -1,9 +1,25 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { useLang } from '@/contexts/language-context';
 
 export function Nav() {
   const { lang, setLang, t } = useLang();
+  const [dark, setDark] = useState(true);
+
+  useEffect(() => {
+    const saved = localStorage.getItem('theme');
+    setDark(saved !== 'light');
+  }, []);
+
+  const toggleTheme = () => {
+    const next = !dark;
+    setDark(next);
+    const theme = next ? 'dark' : 'light';
+    localStorage.setItem('theme', theme);
+    document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.classList.toggle('dark', next);
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-navy-950/80 backdrop-blur-md border-b border-gold-500/20">
@@ -12,8 +28,15 @@ export function Nav() {
           ☀️ {t('朝阳', 'Chaoyang')}
         </a>
 
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-4">
           <NavLinks t={t} />
+          <button
+            onClick={toggleTheme}
+            className="w-8 h-8 rounded-full border border-gold-500/40 flex items-center justify-center text-gold-400 hover:bg-gold-500/10 transition-colors text-sm"
+            title={dark ? t('切换亮色模式', 'Switch to light mode') : t('切换暗色模式', 'Switch to dark mode')}
+          >
+            {dark ? '🌙' : '☀️'}
+          </button>
           <button
             onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}
             className="px-3 py-1 rounded-full border border-gold-500/40 text-gold-400 text-sm hover:bg-gold-500/10 transition-colors"

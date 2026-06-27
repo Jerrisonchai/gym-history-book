@@ -13,7 +13,7 @@ interface ChapterMeta {
   enDesc: string;
 }
 
-const contentDir = join(process.cwd(), '..', 'content-department');
+const contentDir = join(process.cwd(), 'content-department');
 
 // Chapter metadata
 export const chapters: ChapterMeta[] = [
