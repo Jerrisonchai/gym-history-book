@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="sun" cx="50%" cy="15%" r="60%">
+      <stop offset="0%" stop-color="#f0d878" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#d4a843" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0a0e1a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="figureGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e85d5d"/>
+      <stop offset="100%" stop-color="#c44b4b"/>
+    </linearGradient>
+    <linearGradient id="figureGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a843"/>
+      <stop offset="100%" stop-color="#b89230"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#0a0e1a"/>
+  <rect width="800" height="1000" fill="url(#sun)"/>
+
+  <!-- Title -->
+  <text x="400" y="60" text-anchor="middle" fill="#d4a843" font-family="serif" font-size="24" letter-spacing="8">HUMAN TOWER ANATOMY</text>
+  <line x1="200" y1="72" x2="600" y2="72" stroke="#d4a843" stroke-width="1" opacity="0.5"/>
+
+  <!-- Ground line -->
+  <line x1="100" y1="850" x2="700" y2="850" stroke="#d4a843" stroke-width="2" opacity="0.6"/>
+  <text x="400" y="875" text-anchor="middle" fill="#d4a843" font-family="sans-serif" font-size="12" opacity="0.6">STAGE / GROUND</text>
+
+  <!-- Figure drawing function - repeat for each position -->
+  <!-- Helper: x,y,w,h,label,color -->
+  <!-- Using simple styled figures -->
+
+  <!-- LEVEL 1: Base (5 figures) -->
+  <!-- Figure 1 left -->
+  <ellipse cx="310" cy="830" rx="18" ry="20" fill="url(#figureGrad)" stroke="#d4a843" stroke-width="1.5"/>
+  <rect x="302" y="795" width="16" height="38" rx="4" fill="url(#figureGrad)"/>
+  <circle cx="310" cy="785" r="10" fill="url(#figureGrad)" stroke="#d4a843" stroke-width="1"/>
+  <!-- Figure 2 center-left -->
+  <ellipse cx="370" cy="825" rx="18" ry="20" fill="url(#figureGrad)" stroke="#d4a843" stroke-width="1.5"/>
+  <rect x="362" y="790" width="16" height="38" rx="4" fill="url(#figureGrad)"/>
+  <circle cx="370" cy="780" r="10" fill="url(#figureGrad)" stroke="#d4a843" stroke-width="1"/>
+  <!-- Figure 3 center -->
+  <ellipse cx="430" cy="820" rx="18" ry="20" fill="url(#figureGrad)" stroke="#d4a843" stroke-width="1.5"/>
+  <rect x="422" y="785" width="16" height="38" rx="4" fill="url(#figureGrad)"/>
+  <circle cx="430" cy="775" r="10" fill="url(#figureGrad)" stroke="#d4a843" stroke-width="1"/>
+  <!-- Figure 4 center-right -->
+  <ellipse cx="485" cy="828" rx="18" ry="20" fill="url(#figureGrad)" stroke="#d4a843" stroke-width="1.5"/>
+  <rect x="477" y="793" width="16" height="38" rx="4" fill="url(#figureGrad)"/>
+  <circle cx="485" cy="783" r="10" fill="url(#figureGrad)" stroke="#d4a843" stroke-width="1"/>
+  <!-- Figure 5 right -->
+  <ellipse cx="540" cy="835" rx="18" ry="20" fill="url(#figureGrad)" stroke="#d4a843" stroke-width="1.5"/>
+  <rect x="532" y="800" width="16" height="38" rx="4" fill="url(#figureGrad)"/>
+  <circle cx="540" cy="790" r="10" fill="url(#figureGrad)" stroke="#d4a843" stroke-width="1"/>
+
+  <!-- Level 1 label -->
+  <text x="400" y="910" text-anchor="middle" fill="#f0d878" font-family="serif" font-size="16">LEVEL 1 — BASE (5 men)</text>
+  <text x="400" y="928" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="11" opacity="0.7">The foundation. Weight ~300kg per figure.</text>
+
+  <!-- LEVEL 2 (4 figures on shoulders) -->
+  <!-- Figure 2a -->
+  <ellipse cx="325" cy="760" rx="15" ry="17" fill="url(#figureGrad)" stroke="#f0d878" stroke-width="1"/>
+  <rect x="318" y="730" width="14" height="32" rx="3" fill="url(#figureGrad)"/>
+  <circle cx="325" cy="722" r="8" fill="url(#figureGrad)"/>
+  <!-- Figure 2b -->
+  <ellipse cx="385" cy="755" rx="15" ry="17" fill="url(#figureGrad)" stroke="#f0d878" stroke-width="1"/>
+  <rect x="378" y="725" width="14" height="32" rx="3" fill="url(#figureGrad)"/>
+  <circle cx="385" cy="717" r="8" fill="url(#figureGrad)"/>
+  <!-- Figure 2c -->
+  <ellipse cx="445" cy="752" rx="15" ry="17" fill="url(#figureGrad)" stroke="#f0d878" stroke-width="1"/>
+  <rect x="438" y="722" width="14" height="32" rx="3" fill="url(#figureGrad)"/>
+  <circle cx="445" cy="714" r="8" fill="url(#figureGrad)"/>
+  <!-- Figure 2d -->
+  <ellipse cx="505" cy="760" rx="15" ry="17" fill="url(#figureGrad)" stroke="#f0d878" stroke-width="1"/>
+  <rect x="498" y="730" width="14" height="32" rx="3" fill="url(#figureGrad)"/>
+  <circle cx="505" cy="722" r="8" fill="url(#figureGrad)"/>
+
+  <!-- Level 2 label -->
+  <text x="415" y="700" fill="#e8c456" font-family="serif" font-size="14">LEVEL 2 (4 men)</text>
+
+  <!-- LEVEL 3 (3 figures) -->
+  <ellipse cx="355" cy="690" rx="13" ry="15" fill="url(#figureGold)" stroke="#f0d878" stroke-width="1.5"/>
+  <rect x="349" y="663" width="12" height="28" rx="3" fill="url(#figureGold)"/>
+  <circle cx="355" cy="657" r="7" fill="url(#figureGold)"/>
+  <ellipse cx="415" cy="686" rx="13" ry="15" fill="url(#figureGold)" stroke="#f0d878" stroke-width="1.5"/>
+  <rect x="409" y="659" width="12" height="28" rx="3" fill="url(#figureGold)"/>
+  <circle cx="415" cy="653" r="7" fill="url(#figureGold)"/>
+  <ellipse cx="475" cy="692" rx="13" ry="15" fill="url(#figureGold)" stroke="#f0d878" stroke-width="1.5"/>
+  <rect x="469" y="665" width="12" height="28" rx="3" fill="url(#figureGold)"/>
+  <circle cx="475" cy="659" r="7" fill="url(#figureGold)"/>
+
+  <!-- Level 3 label -->
+  <text x="415" y="640" fill="#d4a843" font-family="serif" font-size="14">LEVEL 3 (3 men)</text>
+
+  <!-- LEVEL 4 (2 figures) -->
+  <ellipse cx="380" cy="625" rx="12" ry="14" fill="#f0d878" stroke="#fff" stroke-width="1"/>
+  <rect x="375" y="600" width="10" height="26" rx="2" fill="#f0d878"/>
+  <circle cx="380" cy="594" r="6" fill="#f0d878" stroke="#fff" stroke-width="0.5"/>
+  <ellipse cx="440" cy="628" rx="12" ry="14" fill="#f0d878" stroke="#fff" stroke-width="1"/>
+  <rect x="435" y="603" width="10" height="26" rx="2" fill="#f0d878"/>
+  <circle cx="440" cy="597" r="6" fill="#f0d878" stroke="#fff" stroke-width="0.5"/>
+
+  <!-- Level 4 label -->
+  <text x="410" y="582" fill="#f0d878" font-family="serif" font-size="14">LEVEL 4 (2 men)</text>
+
+  <!-- LEVEL 5 (Top / Enxaneta) -->
+  <ellipse cx="410" cy="570" rx="10" ry="12" fill="#fff" stroke="#d4a843" stroke-width="2"/>
+  <rect x="406" y="550" width="8" height="21" rx="2" fill="#fff"/>
+  <circle cx="410" cy="545" r="5" fill="#fff" stroke="#d4a843" stroke-width="1.5"/>
+
+  <!-- Crown rays for top -->
+  <line x1="406" y1="540" x2="400" y2="530" stroke="#d4a843" stroke-width="1" opacity="0.6"/>
+  <line x1="410" y1="538" x2="410" y2="526" stroke="#d4a843" stroke-width="1" opacity="0.8"/>
+  <line x1="414" y1="540" x2="420" y2="530" stroke="#d4a843" stroke-width="1" opacity="0.6"/>
+
+  <text x="410" y="522" text-anchor="middle" fill="#fff" font-family="serif" font-size="14" font-weight="bold">LEVEL 5 — TOP</text>
+  <text x="410" y="505" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="10">Enxaneta / 塔顶</text>
+
+  <!-- Height scale -->
+  <line x1="660" y1="540" x2="660" y2="850" stroke="#d4a843" stroke-width="1" opacity="0.3"/>
+  <text x="675" y="545" fill="#d4a843" font-family="sans-serif" font-size="10" opacity="0.6">~6m</text>
+  <text x="675" y="850" fill="#d4a843" font-family="sans-serif" font-size="10" opacity="0.6">0m</text>
+  <line x1="655" y1="850" x2="665" y2="850" stroke="#d4a843" stroke-width="1" opacity="0.3"/>
+  <line x1="655" y1="540" x2="665" y2="540" stroke="#d4a843" stroke-width="1" opacity="0.3"/>
+
+  <!-- Labels and annotations -->
+  <text x="400" y="970" text-anchor="middle" fill="#e85d5d" font-family="serif" font-size="18" letter-spacing="4">朝阳体操队 · CHAOYANG</text>
+  <text x="400" y="988" text-anchor="middle" fill="#d4a843" font-family="sans-serif" font-size="9" opacity="0.5">® SGM Gym History Book — Media Asset</text>
+</svg>

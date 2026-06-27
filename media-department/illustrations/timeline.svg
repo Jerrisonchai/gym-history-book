@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4a843"/>
+      <stop offset="100%" stop-color="#f0d878"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="400" fill="#0a0e1a"/>
+  
+  <!-- Title -->
+  <text x="600" y="35" text-anchor="middle" fill="#d4a843" font-family="serif" font-size="20" letter-spacing="5">朝阳体操队 TIMELINE · 1976–2004</text>
+  
+  <!-- Main line -->
+  <line x1="80" y1="200" x2="1120" y2="200" stroke="url(#lineGrad)" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Points -->
+  <!-- 1976 -->
+  <circle cx="100" cy="200" r="8" fill="#d4a843" stroke="#f0d878" stroke-width="2"/>
+  <line x1="100" y1="200" x2="100" y2="140" stroke="#d4a843" stroke-width="1" opacity="0.5"/>
+  <text x="100" y="132" text-anchor="middle" fill="#d4a843" font-family="serif" font-size="14" font-weight="bold">1976</text>
+  <text x="100" y="115" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="9">Troupe Founded</text>
+  <text x="100" y="105" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="8" opacity="0.6">20+ pioneers</text>
+
+  <!-- 1982 -->
+  <circle cx="240" cy="200" r="10" fill="#d4a843" stroke="#f0d878" stroke-width="2"/>
+  <line x1="240" y1="200" x2="240" y2="260" stroke="#d4a843" stroke-width="1" opacity="0.5"/>
+  <text x="240" y="278" text-anchor="middle" fill="#d4a843" font-family="serif" font-size="13" font-weight="bold">1982</text>
+  <text x="240" y="293" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="9">1st Cultural Festival</text>
+  <text x="240" y="305" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="8" opacity="0.7">First 5-Level Tower · 300 members</text>
+
+  <!-- 1985 -->
+  <circle cx="380" cy="200" r="10" fill="#f07b3f" stroke="#f9c88b" stroke-width="2"/>
+  <line x1="380" y1="200" x2="380" y2="140" stroke="#f07b3f" stroke-width="1" opacity="0.5"/>
+  <text x="380" y="132" text-anchor="middle" fill="#f07b3f" font-family="serif" font-size="12" font-weight="bold">1985</text>
+  <text x="380" y="115" text-anchor="middle" fill="#f9c88b" font-family="sans-serif" font-size="8">2nd Cultural Festival</text>
+  <text x="380" y="105" text-anchor="middle" fill="#f9c88b" font-family="sans-serif" font-size="8" opacity="0.7">1,500 members</text>
+
+  <!-- 1987 -->
+  <circle cx="480" cy="200" r="7" fill="#d4a843" stroke="#f0d878" stroke-width="1.5"/>
+  <text x="480" y="222" text-anchor="middle" fill="#d4a843" font-family="serif" font-size="10">1987</text>
+  <text x="480" y="234" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="7" opacity="0.7">UM Martial Arts Night</text>
+
+  <!-- 1989 SEA Games - BIG -->
+  <circle cx="620" cy="200" r="14" fill="#e85d5d" stroke="#fff" stroke-width="3"/>
+  <line x1="620" y1="200" x2="620" y2="80" stroke="#e85d5d" stroke-width="1.5" opacity="0.6"/>
+  <text x="620" y="70" text-anchor="middle" fill="#e85d5d" font-family="serif" font-size="16" font-weight="bold">1989</text>
+  <text x="620" y="55" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="10">SEA GAMES 🇲🇾</text>
+  <text x="620" y="42" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="8">19 Towers · 2,200 Men · Aug 20</text>
+  
+  <!-- Rain -->
+  <circle cx="560" cy="260" r="6" fill="#4ecdc4" stroke="#4ecdc4" stroke-width="1"/>
+  <text x="560" y="280" text-anchor="middle" fill="#4ecdc4" font-family="serif" font-size="9">1989.7</text>
+  <text x="560" y="292" text-anchor="middle" fill="#4ecdc4" font-family="sans-serif" font-size="7">Rain Festival Johor</text>
+
+  <!-- 1990 -->
+  <circle cx="720" cy="200" r="9" fill="#d4a843" stroke="#f0d878" stroke-width="2"/>
+  <line x1="720" y1="200" x2="720" y2="270" stroke="#d4a843" stroke-width="1" opacity="0.5"/>
+  <text x="720" y="285" text-anchor="middle" fill="#d4a843" font-family="serif" font-size="12" font-weight="bold">1990</text>
+  <text x="720" y="300" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="8">National Org Formed</text>
+  <text x="720" y="312" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="7" opacity="0.7">Aug 20</text>
+
+  <!-- 1992 -->
+  <circle cx="800" cy="200" r="7" fill="#f07b3f" stroke="#f9c88b" stroke-width="1.5"/>
+  <text x="800" y="222" text-anchor="middle" fill="#f07b3f" font-family="serif" font-size="10">1992</text>
+  <text x="800" y="234" text-anchor="middle" fill="#f9c88b" font-family="sans-serif" font-size="7" opacity="0.7">Softgym starts</text>
+
+  <!-- 1994 -->
+  <circle cx="880" cy="200" r="7" fill="#d4a843" stroke="#f0d878" stroke-width="1.5"/>
+  <text x="880" y="222" text-anchor="middle" fill="#d4a843" font-family="serif" font-size="10">1994</text>
+  <text x="880" y="234" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="7" opacity="0.7">1st Competition</text>
+
+  <!-- 2004 -->
+  <circle cx="1060" cy="200" r="10" fill="#f0d878" stroke="#fff" stroke-width="2.5"/>
+  <line x1="1060" y1="200" x2="1060" y2="130" stroke="#f0d878" stroke-width="1" opacity="0.5"/>
+  <text x="1060" y="122" text-anchor="middle" fill="#f0d878" font-family="serif" font-size="14" font-weight="bold">2004</text>
+  <text x="1060" y="107" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="9">Named 朝阳体操队 ✨</text>
+  <text x="1060" y="95" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="8">by Ikeda Sensei</text>
+
+  <!-- Era labels -->
+  <text x="310" y="350" text-anchor="middle" fill="#d4a843" font-family="serif" font-size="16" opacity="0.7">ACT I — FOUNDING</text>
+  <text x="630" y="350" text-anchor="middle" fill="#f07b3f" font-family="serif" font-size="16" opacity="0.7">ACT II — FOUNDATION</text>
+  <text x="970" y="350" text-anchor="middle" fill="#f0d878" font-family="serif" font-size="16" opacity="0.7">ACT III</text>
+
+  <!-- Footer -->
+  <text x="600" y="385" text-anchor="middle" fill="#d4a843" font-family="sans-serif" font-size="8" opacity="0.4">SGM 朝阳体操队 Book · Timeline Graphic</text>
+</svg>

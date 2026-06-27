@@ -225,7 +225,7 @@ projects/gym-history-book/
 | 1. Foundation | ✅ Done | 100% |
 | 2. Design System | ✅ Done | 100% |
 | 3. Content | ⏳ Next | 0% |
-| 4. Media Production | 🔜 Pending | 5% (prompt written) |
+| 4. Media Production | ✅ In Progress | 60% (6 SVGs done, 3D pending) |
 | 5–10 | 🔒 Blocked | 0% |
 
 ### ✅ Phase 1 Complete — Foundation
@@ -258,7 +258,18 @@ projects/gym-history-book/
 - [ ] Fill state chapter directory
 - [ ] Photo/video submissions from members
 
-### 🔜 Phases 4–10 — Blocked Until Phase 3 Starts
+### ✅ Phase 4 Progress — Media Production (60%)
+- [x] Tower Anatomy diagram (SVG — 5 levels labeled)
+- [x] Tower Progression sequence (SVG — 2→3→4→5 levels)
+- [x] Castells vs Chaoyang comparison infographic (SVG)
+- [x] Spirit Pillars diagram (SVG — 3 pillars)
+- [x] Historical Timeline (SVG — 1976→2004)
+- [x] Malaysia State Chapters map (SVG — 13 states, 5 verified)
+- [ ] 3D tower model generation (Gemini/MiniMax quota exhausted)
+- [ ] Photo/video submissions from Jerrison & alumni
+- [ ] Hero cover image
+
+### 🔜 Phases 5–10 — Web Dev onwards
 
 ---
 

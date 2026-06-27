@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+  <rect width="1000" height="400" fill="#0a0e1a"/>
+  
+  <text x="500" y="30" text-anchor="middle" fill="#d4a843" font-family="serif" font-size="18" letter-spacing="4">TOWER PROGRESSION · 2 → 6 LEVELS</text>
+  
+  <!-- 2-LEVEL -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="200" height="330" rx="6" fill="#0f1b3d" stroke="#d4a843" stroke-width="0.5" opacity="0.6"/>
+    <text x="100" y="15" text-anchor="middle" fill="#d4a843" font-family="serif" font-size="10">2 Levels</text>
+    <!-- Base 3 -->
+    <ellipse cx="60" cy="300" rx="8" ry="10" fill="#e85d5d" opacity="0.6"/>
+    <ellipse cx="100" cy="295" rx="8" ry="10" fill="#e85d5d" opacity="0.6"/>
+    <ellipse cx="140" cy="300" rx="8" ry="10" fill="#e85d5d" opacity="0.6"/>
+    <!-- Top 2 -->
+    <ellipse cx="80" cy="270" rx="7" ry="9" fill="#d4a843" opacity="0.7"/>
+    <ellipse cx="120" cy="270" rx="7" ry="9" fill="#d4a843" opacity="0.7"/>
+    <text x="100" y="320" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="8">3+2 = 5 men</text>
+  </g>
+  
+  <!-- Arrow -->
+  <text x="275" y="210" fill="#d4a843" font-size="24" opacity="0.4">→</text>
+  
+  <!-- 3-LEVEL -->
+  <g transform="translate(290, 50)">
+    <rect x="0" y="0" width="200" height="330" rx="6" fill="#0f1b3d" stroke="#f07b3f" stroke-width="0.8" opacity="0.7"/>
+    <text x="100" y="15" text-anchor="middle" fill="#f07b3f" font-family="serif" font-size="10">3 Levels</text>
+    <ellipse cx="60" cy="300" rx="8" ry="10" fill="#e85d5d" opacity="0.6"/>
+    <ellipse cx="100" cy="295" rx="8" ry="10" fill="#e85d5d" opacity="0.6"/>
+    <ellipse cx="140" cy="300" rx="8" ry="10" fill="#e85d5d" opacity="0.6"/>
+    <ellipse cx="80" cy="268" rx="7" ry="9" fill="#d4a843" opacity="0.7"/>
+    <ellipse cx="120" cy="268" rx="7" ry="9" fill="#d4a843" opacity="0.7"/>
+    <ellipse cx="100" cy="243" rx="5" ry="7" fill="#f0d878" opacity="0.7"/>
+    <text x="100" y="320" text-anchor="middle" fill="#f9c88b" font-family="sans-serif" font-size="8">3+2+1 = 6 men</text>
+  </g>
+
+  <text x="505" y="210" fill="#f07b3f" font-size="24" opacity="0.4">→</text>
+
+  <!-- 4-LEVEL (performance standard) -->
+  <g transform="translate(520, 50)">
+    <rect x="0" y="0" width="200" height="330" rx="6" fill="#0f1b3d" stroke="#e85d5d" stroke-width="1.5" opacity="0.8"/>
+    <text x="100" y="15" text-anchor="middle" fill="#e85d5d" font-family="serif" font-size="11" font-weight="bold">★ 4 Levels (Standard)</text>
+    <ellipse cx="60" cy="300" rx="8" ry="10" fill="#e85d5d" opacity="0.7"/>
+    <ellipse cx="100" cy="295" rx="8" ry="10" fill="#e85d5d" opacity="0.7"/>
+    <ellipse cx="140" cy="300" rx="8" ry="10" fill="#e85d5d" opacity="0.7"/>
+    <ellipse cx="80" cy="268" rx="7" ry="9" fill="#d4a843" opacity="0.7"/>
+    <ellipse cx="120" cy="268" rx="7" ry="9" fill="#d4a843" opacity="0.7"/>
+    <ellipse cx="100" cy="245" rx="6" ry="7" fill="#f0d878" opacity="0.7"/>
+    <ellipse cx="100" cy="228" rx="4" ry="5" fill="#fff" opacity="0.8"/>
+    <text x="100" y="320" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="8">5+4+3+2 = 14 men</text>
+    <text x="100" y="332" text-anchor="middle" fill="#e85d5d" font-family="sans-serif" font-size="7">SEA Games 1989: 19 towers!</text>
+  </g>
+
+  <text x="735" y="210" fill="#e85d5d" font-size="24" opacity="0.4">→</text>
+
+  <!-- 5-LEVEL -->
+  <g transform="translate(750, 50)">
+    <rect x="0" y="0" width="190" height="330" rx="6" fill="#0f1b3d" stroke="#f0d878" stroke-width="0.8" opacity="0.6"/>
+    <text x="95" y="15" text-anchor="middle" fill="#f0d878" font-family="serif" font-size="10">5 Levels</text>
+    <ellipse cx="50" cy="300" rx="7" ry="9" fill="#e85d5d" opacity="0.5"/>
+    <ellipse cx="90" cy="295" rx="7" ry="9" fill="#e85d5d" opacity="0.5"/>
+    <ellipse cx="130" cy="300" rx="7" ry="9" fill="#e85d5d" opacity="0.5"/>
+    <ellipse cx="70" cy="270" rx="6" ry="8" fill="#d4a843" opacity="0.5"/>
+    <ellipse cx="110" cy="270" rx="6" ry="8" fill="#d4a843" opacity="0.5"/>
+    <ellipse cx="90" cy="248" rx="5" ry="6" fill="#f0d878" opacity="0.5"/>
+    <ellipse cx="90" cy="232" rx="4" ry="5" fill="#f0d878" opacity="0.5"/>
+    <ellipse cx="90" cy="220" rx="3" ry="4" fill="#fff" opacity="0.4"/>
+    <text x="95" y="320" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="8">5+4+3+2+1 = 15 men</text>
+    <text x="95" y="332" text-anchor="middle" fill="#f0d878" font-family="sans-serif" font-size="7">1st Cultural Festival 1982</text>
+  </g>
+
+  <!-- Bottom note -->
+  <text x="500" y="385" text-anchor="middle" fill="#d4a843" font-family="serif" font-size="12" opacity="0.7">Each level built on the shoulders of those below — 每一层都建立在下面的人身上</text>
+</svg>
