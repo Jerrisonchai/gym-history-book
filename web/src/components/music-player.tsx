@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 import { useLang } from '@/contexts/language-context';
 
 interface Track {
@@ -21,6 +21,13 @@ export function MusicPlayer() {
   const [trackIdx, setTrackIdx] = useState(0);
   const [show, setShow] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
+
+  // Listen for bottom nav music tap
+  useEffect(() => {
+    const handler = () => setShow((s) => !s);
+    window.addEventListener('toggle-music', handler);
+    return () => window.removeEventListener('toggle-music', handler);
+  }, []);
 
   const toggle = useCallback(() => {
     if (!audioRef.current) return;
@@ -49,22 +56,10 @@ export function MusicPlayer() {
 
   const track = tracks[trackIdx];
 
-  if (!show) {
-    return (
-      <>
-        <button
-          onClick={() => setShow(true)}
-          className="fixed bottom-4 right-4 z-50 w-12 h-12 rounded-full bg-gold-500/20 border border-gold-500/40 flex items-center justify-center text-gold-400 hover:bg-gold-500/30 transition-colors"
-          title={t('播放音乐', 'Play music')}
-        >
-          ♫
-        </button>
-      </>
-    );
-  }
+  if (!show) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 bg-navy-900/95 backdrop-blur-md border-t border-gold-500/30 px-4 py-2">
+    <div className="fixed bottom-14 left-0 right-0 z-40 bg-navy-900/95 backdrop-blur-md border-t border-gold-500/30 px-4 py-2">
       <audio ref={audioRef} src={track.src} onEnded={next} />
 
       <div className="max-w-2xl mx-auto flex items-center gap-4">
@@ -84,9 +79,7 @@ export function MusicPlayer() {
           <button onClick={next} className="text-gold-400/60 hover:text-gold-300 text-sm">⏭</button>
         </div>
 
-        <button onClick={() => { setPlaying(false); setShow(false); }} className="text-cream-100/30 hover:text-cream-100/60 text-xs ml-2">
-          ✕
-        </button>
+        <button onClick={() => { setPlaying(false); setShow(false); }} className="text-cream-100/30 hover:text-cream-100/60 text-xs ml-2">✕</button>
       </div>
     </div>
   );
