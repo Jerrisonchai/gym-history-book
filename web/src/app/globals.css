@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #0a0e1a;
+  --color-navy-900: #0f1b3d;
+  --color-navy-800: #162447;
+  --color-gold-500: #d4a843;
+  --color-gold-400: #e8c456;
+  --color-gold-300: #f0d878;
+  --color-sunrise-500: #f07b3f;
+  --color-sunrise-400: #f5a15a;
+  --color-sunrise-300: #f9c88b;
+  --color-coral-500: #e85d5d;
+  --color-coral-400: #f07b7b;
+  --color-cream-100: #fdf6e3;
+  --color-cream-50: #fefcf5;
+  --color-teal-400: #4ecdc4;
+  --font-serif-zh: 'Noto Serif SC', serif;
+  --font-serif-en: 'Crimson Text', 'Lora', serif;
+  --font-display: 'Playfair Display', serif;
+  --content-max: 800px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-navy-950);
+  color: var(--color-cream-100);
+  font-family: var(--font-serif-en);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-gold-500);
+  color: var(--color-navy-950);
+}
+
+/* Prose overrides */
+.prose h1, .prose h2, .prose h3 {
+  color: var(--color-gold-500);
+  font-family: var(--font-display);
+}
+
+.prose h2 {
+  color: var(--color-gold-400);
+}
+
+.prose strong {
+  color: var(--color-gold-300);
+}
+
+.prose a {
+  color: var(--color-gold-400);
+  text-decoration: underline;
+}
+
+.prose blockquote {
+  border-left-color: var(--color-coral-500);
+  color: var(--color-cream-100);
+  font-style: italic;
+}
+
+.prose table {
+  color: var(--color-cream-100);
+}
+
+.prose th {
+  color: var(--color-gold-300);
+}
+
+.prose td, .prose th {
+  border-color: var(--color-navy-800);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+  }
+}
