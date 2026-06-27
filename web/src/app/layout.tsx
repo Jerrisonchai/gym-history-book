@@ -7,6 +7,22 @@ import './globals.css';
 export const metadata: Metadata = {
   title: '朝阳体操队 — Chaoyang Gymnastics Team',
   description: 'The official documentary book of the SGM Chaoyang Gymnastics Team — Malaysia\'s human tower tradition since 1976.',
+  metadataBase: new URL('https://web-eight-pied-64.vercel.app'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: '朝阳体操队 — Chaoyang Gymnastics Team',
+    description: 'The official documentary book of the SGM Chaoyang Gymnastics Team — Malaysia\'s human tower tradition since 1976.',
+    type: 'website',
+    locale: 'zh_Hans',
+    siteName: 'Chaoyang Gymnastics Team',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '朝阳体操队 — Chaoyang Gymnastics Team',
+    description: 'The official documentary book of the SGM Chaoyang Gymnastics Team — Malaysia\'s human tower tradition since 1976.',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
