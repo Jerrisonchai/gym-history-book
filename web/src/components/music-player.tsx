@@ -10,9 +10,9 @@ interface Track {
 }
 
 const tracks: Track[] = [
-  { title: '滝の詩 Waterfall 瀑布之詩', artist: 'SGI', src: '/audio/waterfall-takinouta.mp3' },
-  { title: '大楠公の歌 Dainanko', artist: 'SGI', src: '/audio/dainanko.mp3' },
   { title: '紅のうた Crimson Song', artist: 'SGI', src: '/audio/kurenai-no-uta.mp3' },
+  { title: '大楠公の歌 Dainanko', artist: 'SGI', src: '/audio/dainanko.mp3' },
+  { title: '滝の詩 Waterfall 瀑布之詩', artist: 'SGI', src: '/audio/waterfall-takinouta.mp3' },
 ];
 
 export function MusicPlayer() {

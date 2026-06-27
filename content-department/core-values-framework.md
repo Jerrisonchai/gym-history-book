@@ -88,5 +88,6 @@
 
 | # | Title | Google Drive |
 |---|-------|-------------|
-| 1 | 滝の詩 Waterfall 瀑布之诗 (SGI Songs) | [Download](https://drive.google.com/file/d/1UIl4pOctSYgw-2Y6C7JRNt6sKrisXABa/view) |
+| 1 | 紅のうた Crimson Song (SGI Songs) | [Download](https://drive.google.com/file/d/1UIl4pOctSYgw-2Y6C7JRNt6sKrisXABa/view) |
 | 2 | Dainanko 大楠公の歌 (SGI Song Lyrical Video) | [Download](https://drive.google.com/file/d/1AucZ_6EVDyyGcTMsyHQt6oZaF6kr2AUI/view) |
+| 3 | 滝の詩 Waterfall 瀑布之诗 (SGI Songs) | [Download](https://drive.google.com/file/d/1UIl4pOctSYgw-2Y6C7JRNt6sKrisXABa/view) |

@@ -79,14 +79,14 @@ export default function HomePage() {
       <section className="max-w-3xl mx-auto px-6 py-24 text-center">
         <h2 className="text-3xl font-serif text-gold-500 mb-6">🎵 {t('灵性音乐', 'Spirit Music')}</h2>
         <p className="text-cream-100/50 mb-4 text-sm">
-          {t('点击右下角 ♫ 播放来自我们传统的歌曲', 'Click ♫ in the bottom-right to play songs from our tradition')}
+          {t('点击底部 🎵 音乐 播放来自我们传统的歌曲', 'Tap 🎵 Music in the bottom bar to play songs from our tradition')}
         </p>
         <div className="flex justify-center gap-4 text-cream-100/40 text-xs">
-          <span>滝の詩 Waterfall</span>
+          <span>紅のうた Crimson Song</span>
           <span>·</span>
           <span>大楠公の歌 Dainanko</span>
           <span>·</span>
-          <span>紅のうた Crimson Song</span>
+          <span>滝の詩 Waterfall</span>
         </div>
       </section>
 
